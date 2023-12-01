@@ -17,8 +17,6 @@ export default {
     <h2 class="space">Provincia: {{ info.state_province }}</h2>
     <h2 class="space">Codice Postale: {{ info.postal_code }}</h2>
     <h2 class="space">Paese: {{ info.country }}</h2>
-    <!-- <input type="text" class="inpTxt">
-    <button id="btn">Show Me!</button> -->
   </div>
 </template>
 
@@ -31,17 +29,6 @@ export default {
   display: flex;
   align-items: center;
   font-size: 13px;
-}
-
-.inpTxt {
-  width: 300px;
-  height: 30px;
-  font-size: 20px;
-}
-
-#btn {
-  margin-left: 20px;
-  width: 70px;
 }
 
 .title {
